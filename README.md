@@ -29,12 +29,12 @@ mpirun -n [np] ./dem [inputFile]
 * `np` denotes the number of processors you use
 * `inputFile` is the name string for the input parameter file  
 
-&emsp;`Paraview` is used as the postprocessing tool by typing the following words in your terminal:
+&emsp;`Paraview` is used as the postprocessing tool as follows:
 ```
-1. cd DEM/Resutls
+1. cd DEM/Results
 2. paraview &
+3. use paraview to open the interface XDMF file (e.g. PartVisuForSandBox.xmf)
 ```
-&emsp;Then one can use paraview to open the interface XDMF file (e.g. PartVisuForSandBox.xmf) for visualization.
 
 &emsp;For instance, if you want to run the particles settling in a sand box, you can type the following words in your terminal:
 ```
