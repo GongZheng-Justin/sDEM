@@ -8,3 +8,17 @@
 
 &emsp;Following picture shows the process of particles settling in a sand box.
 ![](doc/sandbox.gif)
+
+
+## Installation :briefcase:
+&emsp;Present solver has the following two prerequisities:
+
+* MPI
+* GFortran/Intel Fortran (Supporting Fortran 2003 or higher version)
+
+&emsp;You can compile the code as follows:
+```
+1. chmod a+x ./mymake.sh
+2. ./mymake.sh
+
+```
