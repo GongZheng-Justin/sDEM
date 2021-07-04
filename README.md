@@ -34,7 +34,7 @@ mpirun -n [np] ./dem [inputFile]
 mpirun -n 4 ./dem ./Input/SandBox_DEM.prm
 ```
 
-## Postprocessing :book:
+## Postprocessing :space_invader:
 &emsp;`Paraview` is used as the postprocessing tool as follows:
 ```
 1. cd DEM/Results
