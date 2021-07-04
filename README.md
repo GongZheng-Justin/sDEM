@@ -22,7 +22,7 @@
 2. ./mymake.sh
 3. choose the correct compiler you use, just following guidances printed in the terminal
 ```
-&emsp;If the compiling processes successfully, the executable file(s) `dem`` will be appeared in the folder `sDEM-master/`.
+&emsp;If the compiling processes successfully, the executable file(s) `dem` will be appeared in the current folder (e.g. `sDEM-master/`).
 
 ## Usage :book:
 &emsp;After compiling the code successfully, you can run the executable file like that:
