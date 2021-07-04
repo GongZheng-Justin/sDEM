@@ -48,6 +48,7 @@ mpirun -n 4 ./dem ./Input/SandBox_DEM.prm
 
 ## Acknowledgements :clap:
 &emsp;I would particularly thank [Dr. Norouzi](https://www.researchgate.net/profile/Hamid-Norourzi) from University of Tehran, for his continuous help (from superficial Fortran langange explaination to the underlying DEM details), and his book **_Coupled CFD‐DEM Modeling: Formulation, Implementation and Applimation to Multiphase Flows_**, besides the attached code [cemfDEM](https://github.com/hamidrezanorouzi/cemfDEM). 
+
 &emsp;To some extent, the present DEM solver can be regarded as the MPI version of the original serial [cemfDEM](https://github.com/hamidrezanorouzi/cemfDEM).
 
 ## Contact and Feedback :email:
