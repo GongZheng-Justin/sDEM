@@ -29,6 +29,12 @@ mpirun -n [np] ./dem [inputFile]
 * `np` denotes the number of processors you use
 * `inputFile` is the name string for the input parameter file  
 
+&emsp;For instance, if you want to run the particles settling in a sand box, you can type the following words in your terminal:
+```
+mpirun -n 4 ./dem ./Input/SandBox_DEM.prm
+```
+
+## Postprocessing :book:
 &emsp;`Paraview` is used as the postprocessing tool as follows:
 ```
 1. cd DEM/Results
@@ -36,10 +42,6 @@ mpirun -n [np] ./dem [inputFile]
 3. use paraview to open the interface XDMF file (e.g. PartVisuForSandBox.xmf)
 ```
 
-&emsp;For instance, if you want to run the particles settling in a sand box, you can type the following words in your terminal:
-```
-mpirun -n 4 ./dem ./Input/SandBox_DEM.prm
-```
 ## To do list :muscle:
 * Adding a **non-spherical Particles** module, using **Super-ellipsoids** and/or **Multi-Sphere** Method
 * Hybrid MPI/OpenMP parallelization and GPU acceleration  
