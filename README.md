@@ -22,7 +22,7 @@
 2. ./mymake.sh
 3. choose the correct compiler you use, just following guidances printed in the terminal
 ```
-&emsp;If the compiling processes successfully, the executable file(s) `dem`/`channel4th` will be appeared in the folder `sDEM-master/`.
+&emsp;If the compiling processes successfully, the executable file(s) `dem`` will be appeared in the folder `sDEM-master/`.
 
 ## Usage :book:
 &emsp;After compiling the code successfully, you can run the executable file like that:
@@ -42,7 +42,7 @@ mpirun -n 4 ./dem ./Input/SandBox_DEM.prm
 * Hybrid MPI/OpenMP parallelization and GPU acceleration  
 
 ## Acknowledgements :clap:
-  I would particularly thank [Dr. Norouzi](https://www.researchgate.net/profile/Hamid-Norourzi) from University of Tehran, and his book **_Coupled CFD‐DEM Modeling: Formulation, Implementation and Applimation to Multiphase Flows_**, besides the [attached DEM code](https://www.wiley.com//legacy/wileychi/norouzi/form.html?type=SupplementaryMaterial). 
+  I would particularly thank [Dr. Norouzi](https://www.researchgate.net/profile/Hamid-Norourzi) from University of Tehran, and his book **_Coupled CFD‐DEM Modeling: Formulation, Implementation and Applimation to Multiphase Flows_**, besides the [attached DEM code](https://github.com/hamidrezanorouzi/cemfDEM). 
 
 ## Contact and Feedback :email:
 &emsp;If you have any question, or want to contribute to the code, please don't hesitate to contact me: Zheng Gong (gongzheng_justin@outlook.com)
