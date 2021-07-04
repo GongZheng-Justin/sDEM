@@ -6,10 +6,6 @@
 * Both linear and non-linear contact force models
 * NBS-Munjiza (Non Binary Search - Munjiza) contact search algorithm
 
-&emsp;Following picture shows the process of particles settling in a sand box.
-![](doc/sandbox.gif)
-
-
 ## Installation :briefcase:
 &emsp;Present solver has the following two prerequisities:
 
@@ -42,9 +38,12 @@ mpirun -n 4 ./dem ./Input/SandBox_DEM.prm
 * Hybrid MPI/OpenMP parallelization and GPU acceleration  
 
 ## Acknowledgements :clap:
-  I would particularly thank [Dr. Norouzi](https://www.researchgate.net/profile/Hamid-Norourzi) from University of Tehran, for his continuous help (from superficial Fortran langange illustration to the underlying DEM details), and his book **_Coupled CFD‐DEM Modeling: Formulation, Implementation and Applimation to Multiphase Flows_**, besides the attached code [cemfDEM](https://github.com/hamidrezanorouzi/cemfDEM). 
+  I would particularly thank [Dr. Norouzi](https://www.researchgate.net/profile/Hamid-Norourzi) from University of Tehran, for his continuous help (from superficial Fortran langange explaination to the underlying DEM details), and his book **_Coupled CFD‐DEM Modeling: Formulation, Implementation and Applimation to Multiphase Flows_**, besides the attached code [cemfDEM](https://github.com/hamidrezanorouzi/cemfDEM). 
   
   To some extent, the present DEM solver can be regarded as the MPI version of the original serial [cemfDEM](https://github.com/hamidrezanorouzi/cemfDEM).
 
 ## Contact and Feedback :email:
 &emsp;If you have any question, or want to contribute to the code, please don't hesitate to contact me: Zheng Gong (gongzheng_justin@outlook.com)
+
+&emsp;Following picture shows the process of particles settling in a sand box.
+![](doc/sandbox.gif)
