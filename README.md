@@ -6,4 +6,5 @@
 * Both linear and non-linear contact force models
 * NBS-Munjiza (Non Binary Search - Munjiza) contact search algorithm
 
-
+&emsp;Following picture shows the process of particles settling in a sand box.
+![](doc/sandbox.gif)
