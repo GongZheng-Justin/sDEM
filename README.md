@@ -18,7 +18,7 @@
 2. ./mymake.sh
 3. choose the correct compiler you use, just following guidances printed in the terminal
 ```
-&emsp;If the compiling processes successfully, the executable file(s) `dem` will be appeared in the current folder (e.g. `sDEM-master`).
+&emsp;If the compiling processes successfully, the executable file `dem` will be appeared in the current folder (e.g. `sDEM-master`).
 
 ## Usage :book:
 &emsp;After compiling the code successfully, you can run the executable file like that:
@@ -28,6 +28,13 @@ mpirun -n [np] ./dem [inputFile]
 &emsp;Here:
 * `np` denotes the number of processors you use
 * `inputFile` is the name string for the input parameter file  
+
+&emsp;`Paraview` is used as the postprocessing tool by typing the following words in your terminal:
+```
+1. cd DEM/Resutls
+2. paraview &
+```
+&emsp;Then one can use paraview to open the interface XDMF file (e.g. PartVisuForSandBox.xmf) for visualization.
 
 &emsp;For instance, if you want to run the particles settling in a sand box, you can type the following words in your terminal:
 ```
