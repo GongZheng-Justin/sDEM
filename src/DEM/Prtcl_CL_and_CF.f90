@@ -558,7 +558,6 @@ contains
           pid2=i; exit
         endif
       ENDDO
-      if(pid2>0 .and. gid1>gid2) cycle
 
       nextI = this%nextInsert     
       this%nextInsert = -Next(nextI)
@@ -572,7 +571,7 @@ contains
       Bucket(pid1) = nextI
       CntctStatus(nextI)=2
       Tang_del(nextI) = TanDelVel(j)
-      IF(pid2>0) THEN  ! gid2 is also within this processor
+      IF(pid2>0 .and. gid1<gid2) THEN  ! gid2 is also within this process
         id_i(nextI)= gid1
         Next_Cp(nextI)=Head_Cp(pid2)
         Head_Cp(pid2)=nextI
