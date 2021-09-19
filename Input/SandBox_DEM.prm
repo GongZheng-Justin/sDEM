@@ -22,15 +22,15 @@
 
   Prtcl_cs_ratio = 1.0  
   CS_Method  = 1       ! Contact search method (1: NBS_Munjiza; 2: NBS_Munjiza_Hrchl )
-  CF_Type    = 4       ! Contact force type (1: LSD_nl, 2: LSD_l, 3: nLin_nl, 4:nLin_l)
+  CF_Type    = 2       ! Contact force type (1: LSD, 2:nLin)
   CT_Model   = 1       ! Contact torque type (1: ConstantTorque, 2: VariableTorque)
   PI_Method  = 3       ! Integration scheme for translational motion ( 1:FE, 2:AB2, 3:AB3)
   PRI_Method = 3       ! Integration scheme for rotational motion ( 1:FE, 2:AB2, 3:AB3 )
 
   numPrtcl_Type = 1    ! number of particle type
-  numWall_type  = 1    !  number of wall type
+  numWall_type  = 1    ! number of wall type
 
-  CntctList_Size =8    ! Contact list size, 6 means every particle can contact with 12 neighbour particles/walls in average
+  CntctList_Size =6    ! Contact list size, 6 means every particle can contact with 12 neighbour particles/walls in average
   CS_numlvls    = 0    ! Number of levels in multi-level contact search, 0 means default behavior.
 
   Base_wall_id = 10000000     ! Global wall id will start at (Base_wall_id+1). Please make sure that  Base_wall_id >= numPrtcl
@@ -63,9 +63,10 @@
   PoissonRatio_P  = 0.23  
   
   ! The following coefficinets are set to all the binary physical propertys for particle-particle group.
-  FrictionCoe_PP = 0.2
+  FrictionCoe_s_PP = 0.40
+  FrictionCoe_k_PP = 0.40
   FrictionCoe_Roll_PP = 0.10 
-  RestitutionCoe_n_PP = 0.80
+  RestitutionCoe_n_PP = 0.30
   RestitutionCoe_t_PP = 0.80
 
 /End of NAMELIST "&ParticlePhysicalProperty"
@@ -78,9 +79,10 @@
   PoissonRatio_W = 0.23
   
   ! The following coefficinets are set to all the binary physical propertys for particle-wall group.
-  FrictionCoe_PW = 0.30
+  FrictionCoe_s_PW = 0.40
+  FrictionCoe_k_PW = 0.40
   FrictionCoe_Roll_PW = 0.10 
-  RestitutionCoe_n_PW = 0.80
+  RestitutionCoe_n_PW = 0.30
   RestitutionCoe_t_PW = 0.80
 
 /End of NAMELIST "&WallPhysicalProperty"
