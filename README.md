@@ -56,4 +56,4 @@ mpirun -n 4 ./dem ./Input/SandBox_DEM.prm
 
 ##
 Following picture shows the process of particles settling in a sand box.
-![](doc/sandbox.gif)
+<img src="./doc/picture/doc/sandbox.gif" width="50%" height="50%" div align=center />
