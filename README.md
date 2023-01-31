@@ -6,6 +6,9 @@
 * Both linear and non-linear contact force models
 * NBS-Munjiza (Non Binary Search - Munjiza) contact search algorithm
 
+## Notice :newspaper: 
+&emsp;**sDEM** has been integrated into the CFD-DEM sovler [**CP3d**](https://github.com/GongZheng-Justin/CP3d) as a sub-solver.
+
 ## Installation :briefcase:
 &emsp;Present solver has the following two prerequisities:
 
