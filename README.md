@@ -1,3 +1,7 @@
+## Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=lfortran/lfortran&type=Date)](https://star-history.com/#lfortran/lfortran&Date)
+
 # sDEM
 &emsp;**sDEM** (simple Discrete Element Method) is a simple parallel DEM code with following features:
 
