@@ -63,5 +63,3 @@ Following picture shows the process of particles settling in a sand box.
 
 ## Star History
 [![Star History Chart](https://api.star-history.com/svg?repos=GongZheng-Justin/sDEM&type=Date)](https://star-history.com/#GongZheng-Justin/sDEM&Date)
-
-<img src=[![Star History Chart](https://api.star-history.com/svg?repos=GongZheng-Justin/sDEM&type=Date)](https://star-history.com/#GongZheng-Justin/sDEM&Date) width="30%" height="30%" div align=center />
