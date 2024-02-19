@@ -54,13 +54,12 @@ mpirun -n 4 ./dem ./Input/SandBox_DEM.prm
 
 &emsp;To some extent, the present DEM solver can be regarded as the MPI version of the original serial [cemfDEM](https://github.com/hamidrezanorouzi/cemfDEM).
 
-## Star History
-
-[![Star History Chart](https://api.star-history.com/svg?repos=GongZheng-Justin/sDEM&type=Date)](https://star-history.com/#GongZheng-Justin/sDEM&Date)
-
 ## Contact and Feedback :email:
 &emsp;If you have any question, or want to contribute to the code, please don't hesitate to contact me: Zheng Gong (gongzheng_justin@outlook.com)
 
 ##
 Following picture shows the process of particles settling in a sand box.  
 <img src="./doc/sandbox.gif" width="30%" height="30%" div align=center />
+
+## Star History
+[![Star History Chart](https://api.star-history.com/svg?repos=GongZheng-Justin/sDEM&type=Date)](https://star-history.com/#GongZheng-Justin/sDEM&Date)
