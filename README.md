@@ -1,3 +1,6 @@
+# Notice :newspaper: 
+&emsp;**sDEM** has been integrated into the CFD-DEM sovler [**CP3d**](https://github.com/GongZheng-Justin/CP3d) as a sub-solver.
+
 # sDEM
 &emsp;**sDEM** (simple Discrete Element Method) is a simple parallel DEM code with following features:
 
@@ -5,9 +8,6 @@
 * Have the ability to handle particles with different diameters
 * Both linear and non-linear contact force models
 * NBS-Munjiza (Non Binary Search - Munjiza) contact search algorithm
-
-## Notice :newspaper: 
-&emsp;**sDEM** has been integrated into the CFD-DEM sovler [**CP3d**](https://github.com/GongZheng-Justin/CP3d) as a sub-solver.
 
 ## Installation :briefcase:
 &emsp;Present solver has the following two prerequisities:
